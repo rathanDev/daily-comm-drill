@@ -1,4 +1,6 @@
-The "Number of Islands" problem is a classic example of using graph traversal techniques to identify connected components in a grid. 
+The "Number of Islands" problem is a classic example of 
+using graph traversal techniques 
+to identify connected components in a grid. 
 
 Each cell in the grid represents either land (`'1'`) or water (`'0'`). 
 
@@ -20,3 +22,13 @@ especially for static grids, and can be extended to breadth-first search (BFS) o
 
 
 intuitive - the logic is easy to grasp and implement
+
+
+
+
+# -----
+
+classic example 
+graph traversal 
+represent 
+adjacent 

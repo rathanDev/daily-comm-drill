@@ -4,9 +4,12 @@ https://www.hellointerview.com/learn/system-design/problem-breakdowns/bitly
 # P1
 
 Functional Requirements
-The first thing you'll want to do when starting a system design interview is 
+
+The first thing you want to do when starting a system design interview is 
 to get a clear understanding of the requirements of the system. 
+
 Functional requirements are the features that the system must have to satisfy the needs of the user.
+
 In some interviews, the interviewer will provide you with the core functional requirements upfront.
 In other cases, you'll need to determine these requirements yourself. 
 If you're familiar with the product, this task should be relatively straightforward. 
