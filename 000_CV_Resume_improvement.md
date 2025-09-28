@@ -1,4 +1,29 @@
 
+# ---------------------------------
+
+1. Designed and implemented the email service 
+    to avoid 504 timeouts 
+        bcz when data is saved the backend peii-compass downloads the attachment and sends the emails 
+    to decouple email template logic 
+    to decouple 
+    to reduce the load for CodeQL (bcz it was running for > 30 mins)
+    to improve the testing 
+
+1. Redesigned the file upload feature and reduced the round trip time by 30%.
+
+2. Enhanced observability, and reduced the troubleshooting time for bugs by 40%.
+    Added logs 
+    Added span id, trace id
+    introduced Serilog 
+
+
+
+# ---------------------------------
+
+
+let's stick with S3
+bcz sharepoint has limitations
+
 Mention 
 that previously 
 
@@ -15,7 +40,7 @@ that previously
     send email 
 
 
-UI ---->  BE -----> sharePoint 
+UI ---->  BE -----> S3
 
 
 
