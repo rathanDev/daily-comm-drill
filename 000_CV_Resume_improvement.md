@@ -16,7 +16,12 @@
     Added span id, trace id
     introduced Serilog 
 
+    Used SSE (Server Sent Events) to notify the UI if the email sending successful or not.
 
+3. Designed and lead the development of a url shortener feature
+    bcz there are are many features use link sharing 
+    in emails and notifications
+    there were reported defects of broken urls due to special chars 
 
 # ---------------------------------
 
