@@ -1,4 +1,31 @@
 
+# ---
+
+In ShipXpress to support C#.NET Core
+
+Built a lightweight custom API Manager using .NET Core to meet specific routing and validation requirements, reduce third-party licensing costs, and improve performance for internal microservice communication.
+
+# ---
+
+Option 1: .NET / Production-Focused (Recommended)
+Enhanced system observability, reducing bug troubleshooting time by 40% by:
+Introducing structured logging using Serilog
+Standardizing log enrichment (request context, correlation identifiers, environment metadata)
+Improving log consistency and searchability across microservices
+Defining clear log levels and error categorization to speed up root-cause analysis
+
+Option 2: Metrics + Monitoring Emphasis
+Enhanced system observability, reducing bug troubleshooting time by 40% by:
+Implementing structured and contextual logging with Serilog
+Adding application-level metrics for key business and technical flows
+Improving error visibility and alerting for faster issue detection
+Enhancing log correlation across distributed services
+
+# ---
+
+Yes, the Oracle database is widely used with C# and .NET Core, particularly in large enterprises. Oracle provides official, optimized drivers for this purpose, making it a fully supported and common practice, not a general or technical limitation. 
+While Microsoft SQL Server or PostgreSQL are often the default choices for new .NET projects, the Oracle DB is a robust option, especially when dealing with massive datasets or existing Oracle infrastructure. 
+
 # ---------------------------------
 
 1. Designed and implemented the email service 
@@ -19,9 +46,15 @@
     Used SSE (Server Sent Events) to notify the UI if the email sending successful or not.
 
 3. Designed and lead the development of a url shortener feature
+        with user defined custom alias 
+        ;
         bcz there are are many features use link sharing 
         in emails and notifications
         there were reported defects of broken urls due to special chars 
+
+4. Designed and lead the development of Rate Limiter 
+    when working in ShipXpress
+    
 
 # ---------------------------------
 
